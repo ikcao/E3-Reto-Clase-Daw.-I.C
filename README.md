@@ -4,7 +4,7 @@ En este documento se explican los pasos a realizar para poder registrarse usando
 html y que este conecte con una base de datos Mysql.
 
 
-:robot:<-------------------CARPETA BASE DE DATOS----------------->:robot:
+:robot: ##CARPETA BASE DE DATOS :robot:
 
 Empezando por la base de datos sera necesario tener instalado Xampp, una vez instalado iniciar Apache y Mysql.
 Desde ahi acceder a phpMyAdmin y importar el archivo sql de la carpeta Base de Datos.
