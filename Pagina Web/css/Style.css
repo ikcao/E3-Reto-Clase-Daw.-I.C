@@ -590,3 +590,19 @@ body{
     color: black;
 }
 
+.equis{
+    width: 20px;
+    height: 20px;
+    margin-left: 90%;
+    margin-top: 5%;
+}
+
+#enviar{
+    width: 100%;
+    background: #1f53cc;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 6px 0;
+    font-size: 16px;
+}
