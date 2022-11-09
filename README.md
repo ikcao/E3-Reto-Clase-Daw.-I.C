@@ -3,7 +3,7 @@
 En este documento se explican los pasos a realizar para poder registrarse usando un formulario
 html y que este conecte con una base de datos Mysql.
 
-## CARPETA BASE DE DATOS :robot:
+## CARPETA BASE DE DATOS :robot::coffee:
 
 Empezando por la base de datos sera necesario tener instalado Xampp, una vez instalado iniciar Apache y Mysql.
 Desde ahi acceder a phpMyAdmin y importar el archivo sql de la carpeta Base de Datos.
@@ -14,7 +14,7 @@ la pagina web de Draw.io.
 En la misma carpeta tambien encontraremos un archivo .php de inscripcion, que tendra que ir en la carpeta Htdocs, que se
 encuentra en la carpeta de Xampp.
 
-## CARPETA PAGINA WEB :robot:
+## CARPETA PAGINA WEB :robot::coffee:
 
 Aqui encontraremos todos los archivos de la pagina separados en sus respectivas carpetas, el archivo de la pagina principal
 index.html, la carpeta de CSS con los estilos, una carpeta HTML para las paginas secundarias de la web, una carpeta de
@@ -22,11 +22,11 @@ imagenes y por ultimo una carpeta para los Scripts de Java.
 
 Tendremos que mover todo de nuevo a la carpeta Htdocs de Xampp para que funcione la inscripcion.
 
-Para que la pagina web se vea correctamente sera necesario instalar la extension "Live Server" en Visual Studio Code, y abrir
-el index con ella. Tambien hay que asegurarse que se abra usando "localhost" y no una ip aleatoria.
+:warning::warning:Para que la pagina web se vea correctamente sera necesario instalar la extension "Live Server" en Visual Studio Code, y abrir
+el index con ella. Tambien hay que asegurarse que se abra usando "localhost" y no una ip aleatoria.  :warning::warning:
 
 
-## CARPETA PROGRAMACION :robot:
+## CARPETA PROGRAMACION :robot::coffee:
 
 En esta carpeta se encuentra el codigo Java en un bloc de notas con el que podremos conectar con la base de datos y sacar
 informacion, hay varias funciones con comentarios de lo que hace cada una de ellas.
@@ -41,7 +41,7 @@ la clase.
  This document explains the steps to be taken in order to register using an html form and connect it to a Mysql database.
 
 
-## DATABASE FOLDER :robot:
+## DATABASE FOLDER :robot::coffee:
 
 Starting with the database it will be necessary to have Xampp installed, once installed start Apache and Mysql.
 From there access to phpMyAdmin and import the sql file from the Database folder.
@@ -52,7 +52,7 @@ the Draw.io web page.
 In the same folder we will also find a .php file of inscription, that will have to go in the folder Htdocs, that is in the folder of Xampp.
 
 
-## WEB PAGE FOLDER :robot:
+## WEB PAGE FOLDER :robot::coffee:
 
 Here we will find all the files of the page separated in their respective folders, the main page file
 index.html, the folder of CSS with the styles, a folder HTML for the secondary pages of the web, a folder of images and finally a folder
@@ -60,8 +60,10 @@ for the Java Scripts.
 
 We will have to move everything back to the Xampp Htdocs folder for the registration to work.
 
+:warning::warning:For the web page to display correctly it will be necessary to install the "Live Server" extension in Visual Studio Code, and open the index with it.
+the index with it. Also make sure that it is opened using "localhost" and not a random ip.:warning::warning:
 
-## PROGRAMMING FOLDER :robot:
+## PROGRAMMING FOLDER :robot::coffee:
 
 In this folder is the Java code in a notepad with which we can connect to the database and retrieve information,
 there are several functions with comments of what does each one of them.
