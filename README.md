@@ -22,6 +22,9 @@ imagenes y por ultimo una carpeta para los Scripts de Java.
 
 Tendremos que mover todo de nuevo a la carpeta Htdocs de Xampp para que funcione la inscripcion.
 
+Para que la pagina web se vea correctamente sera necesario instalar la extension "Live Server" en Visual Studio Code, y abrir
+el index con ella. Tambien hay que asegurarse que se abra usando "localhost" y no una ip aleatoria.
+
 
 ## CARPETA PROGRAMACION :robot:
 
