@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/Style.css">
+    <script src="/js/jquery-3.6.1.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/validation.js"></script>
+    <script src="https://kit.fontawesome.com/1a6a99b9d6.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    
+    
+    <nav class="navbar">
+        <img src="/imagenes/E3_Logo.png" class="logo">
+            <ul class="links-container">
+                <li class="link-item"><a href="/index.html" class="link">Inicio</a></li>
+                <li class="link-item"><a href="/html/instalaciones.html" class="link">Instalaciones</a></li>
+                <li class="link-item"><a href="/html/contacto.html" class="link">Quienes Somos</a></li>
+                <li class="link-item"><button href="" class="registro">Registrarse</button></li>
+            </ul>
+    </nav>
+        <header class="header">
+            <div class="content">
+                <h1 class="heading">
+                    <!--<span class="small">welcome to </span>
+                    
+                    <span class="no-fill">E3</span>
+                </h1>
+                <a href="blog-section" class="btn">Ver</a>     -->
+        </header>
+        <div class=pop-up><form name="formulario"method="get" action="inscripcion.php">
+            <section class="form-register">
+                <i class="fa-regular fa-circle-xmark" id="close"></i>
+                <h4>Formulario Registro</h4>
+                    <input class="controls" type="email" name="email" id="email" placeholder="Introduzca su correo"required>
+                    <input class="controls" type="text"  name="nombre" id="nombre" placeholder="Introduzca su nombre" required>
+                    <input class="controls" type="text" name="apellido" id="apellido" placeholder="Introduzca su apellido"required>
+                    <input class="controls" type="number" name="edad" id="edad" placeholder="Introduzca su edad"required>
+                    <input class="controls" type="password" name="contrasena" id="contrasena" placeholder="Introduzca su contraseña"required>
+                    <input class="controls" type="number" name="telefono" id="tel" placeholder="Introduzca su telefono"required>
+                    <label for="genero">Genero:</label>
+                    <select required name="genero"class="genero" >
+                        <option value="Sin respuesta">Sin respuesta</option>
+                        <option value="Hombre">Hombre</option>
+                        <option value="Mujer">Mujer</option>
+                        <option value="Otro">Otro</option>
+                      </select>
+                    <label for="localidad">Localidad:</label>
+                        <select required name="localidad" class="localidad">
+                            
+                            <option value="Álava/Araba">Álava/Araba</option>
+                            <option value="Albacete">Albacete</option>
+                            <option value="Alicante">Alicante</option>
+                            <option value="Almería">Almería</option>
+                            <option value="Asturias">Asturias</option>
+                            <option value="Ávila">Ávila</option>
+                            <option value="Badajoz">Badajoz</option>
+                            <option value="Baleares">Baleares</option>
+                            <option value="Barcelona">Barcelona</option>
+                            <option value="Burgos">Burgos</option>
+                            <option value="Cáceres">Cáceres</option>
+                            <option value="Cádiz">Cádiz</option>
+                            <option value="Cantabria">Cantabria</option>
+                            <option value="Castellón">Castellón</option>
+                            <option value="Ceuta">Ceuta</option>
+                            <option value="Ciudad Real">Ciudad Real</option>
+                            <option value="Córdoba">Córdoba</option>
+                            <option value="Cuenca">Cuenca</option>
+                            <option value="Gerona/Girona">Gerona/Girona</option>
+                            <option value="Granada">Granada</option>
+                            <option value="Guadalajara">Guadalajara</option>
+                            <option value="Guipúzcoa/Gipuzkoa">Guipúzcoa/Gipuzkoa</option>
+                            <option value="Huelva">Huelva</option>
+                            <option value="Huesca">Huesca</option>
+                            <option value="Jaén">Jaén</option>
+                            <option value="La Coruña/A Coruña">La Coruña/A Coruña</option>
+                            <option value="La Rioja">La Rioja</option>
+                            <option value="Las Palmas">Las Palmas</option>
+                            <option value="León">León</option>
+                            <option value="Lérida/Lleida">Lérida/Lleida</option>
+                            <option value="Lugo">Lugo</option>
+                            <option value="Madrid">Madrid</option>
+                            <option value="Málaga">Málaga</option>
+                            <option value="Melilla">Melilla</option>
+                            <option value="Murcia">Murcia</option>
+                            <option value="Navarra">Navarra</option>
+                            <option value="Orense/Ourense">Orense/Ourense</option>
+                            <option value="Palencia">Palencia</option>
+                            <option value="Pontevedra">Pontevedra</option>
+                            <option value="Salamanca">Salamanca</option>
+                            <option value="Segovia">Segovia</option>
+                            <option value="Sevilla">Sevilla</option>
+                            <option value="Soria">Soria</option>
+                            <option value="Tarragona">Tarragona</option>
+                            <option value="Tenerife">Tenerife</option>
+                            <option value="Teruel">Teruel</option>
+                            <option value="Toledo">Toledo</option>
+                            <option value="Valencia">Valencia</option>
+                            <option value="Valladolid">Valladolid</option>
+                            <option value="Vizcaya/Bizkaia">Vizcaya/Bizkaia</option>
+                            <option value="Zamora">Zamora</option>
+                            <option value="Zaragoza">Zaragoza</option>
+                          </select>
+                          
+                    
+                    
+                    <div class="terms-container">
+                        <div class="terms-checkbox-container">
+                            <input class="acceptterms" type="checkbox" name="condiciones" value="agree_terms" required>
+                        </div>
+                        <div class="terms-text-container">
+                            Acepto los Términos y Condiciones
+                        </div>
+                    </div>
+                    <input type="submit" id="enviar" value="Registrarse"/>
+                       
+                            <p><a href="#"> ¿Ya tienes cuenta?</a></p>
+                
+                            
+
+            </section>
+        </form>
+        </div>
+        <hr class="linea1">
+
+        <h1 class="titulo">Eventos destacados</h1>
+
+        <!--seccion del blog-->
+        <div section class="blog-section"> 
+            <div class="blog-card"> <!--Xbox E3-->
+                <img src="/imagenes/xboxe3.jpg" class="blog-image" alt="">
+                <h1 class="blog-tittle">Xbox & Bethesda Games Showcase </h1>
+                <p class="blog-overview">Ten acceso a los tráilers de juegos, estrenos mundiales y noticias más recientes, todo en un solo lugar. 
+                    </p>
+                    <a href="https://www.xbox.com/es-ES/xbox-bethesda-games-showcase" class="btn dark">Ver</a>
+            </div>
+        
+            <div class="blog-card"> <!--Nintendo Direct-->
+                <img src="/imagenes/20226149553898_1.jpg" class="blog-image" alt="">
+                <h1 class="blog-tittle">Nintendo Direct</h1>
+                <p class="blog-overview">¡Echadles un ojo a Metroid Dread, Advance Wars 1+2: Re-Boot Camp y más en el Nintendo Treehouse: Live 
+                    </p>
+                    <a href="https://www.nintendo.es/Noticias/2021/junio/-Echadles-un-ojo-a-Metroid-Dread-Advance-Wars-1-2-Re-Boot-Camp-y-mas-en-el-Nintendo-Treehouse-Live-E3-2021--1990474.html" class="btn dark">Ver</a>
+            </div>
+        </div>
+        
+        <div section class="blog-section">
+             <div class="blog-card"> <!--EA Play Live-->
+                 <img src="/imagenes/EA-Play-2021-1024x576.jpg" class="blog-image" alt="">
+                 <h1 class="blog-tittle">EA Play Live</h1>
+                <p class="blog-overview">EA Play Live 2022 conecta al público de todo el mundo a los nuevos juegos de EA mediante emisiones en directo, contenido de la comunidad y mucho más. 
+                    </p>
+                    <a href="https://www.ea.com/es-es/ea-play-live" class="btn dark">Ver</a>
+            </div>
+            
+            <div class="blog-card"> <!--Steam Next Fest-->
+                <img src="/imagenes/1366_2000.png" class="blog-image" alt="">
+                <h1 class="blog-tittle">Steam Next Fest</h1>
+                <p class="blog-overview">Steam Next Fest 2022: ya puedes probar decenas de demos de futuros juegos como Cult of the Lamb, Destroy All Humans 2 o Agent 64 </p>
+                 <a href="https://store.steampowered.com/news/group/39049601/view/3363641088446628991" class="btn dark">Ver</a>
+            </div>
+        </div>      
+        
+</body>
+<footer class="footer" aria-label="Sitio" itemtype="https://schema.org/WPFooter" itemscope="">
+        <div class="footer-bar">
+            <aside id="block-13" class="widget inner-padding widget_block widget_text">
+                <p class="footerclass"><meta charset="utf-8">
+                    <a rel="noreferrer noopener nofollow" href="/index.html" target="_blank" data-type="page" data-id="48455">Inicio</a> |
+                    <a rel="noreferrer noopener nofollow" href="/html/instalaciones.html" target="_blank" data-type="page" data-id="48558">Instalaciones</a> |
+                    <a rel="noreferrer noopener nofollow" href="/html/contacto.html" target="_blank" data-type="page" data-id="48563">Quienes Somos</a> |
+                    <a  class="registro" target="_blank" data-type="page" data-id="48464">Registrarse</a>
+                </p>
+            </aside>   
+            <p class="copyright">© 2022 E3. Todos los derechos reservados.</p>  
+        </div>     
+</footer>
+</html>

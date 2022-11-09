@@ -1,0 +1,592 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   width: 100%;
+   position: relative;
+   font-family: 'Poppins', sans-serif;
+    background: #f5f5f5;
+}
+
+::selection{
+    background: black;
+    color: white;
+}
+
+.links-container{
+    display: flex;
+    list-style: none;
+}
+
+.link{
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+.header{
+    margin-top: 60px;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/imagenes/1366_2000.jpeg);
+}
+
+.heading{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 80px;
+    line-height: 60px;
+    margin-bottom: 80px;
+}
+.heading .small{
+    display: block;
+    font-size: 40px;
+}
+
+.heading .no-fill{
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+}
+
+.btn{
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.7);
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .team-5 {
+    margin-bottom: 30px;
+}
+
+.team-5 .team-img {
+    position: relative;
+    font-size: 0;
+    text-align: center;
+}
+
+.team-5 .team-img img {
+    width: 180px;
+    height: auto;
+    border-radius: 100%;
+    border: 20px solid #f3f4fa;
+}
+
+.team-5 .team-content {
+    padding: 80px 20px 20px 20px;
+    margin-top: -90px;
+    text-align: center;
+    background: #f3f4fa;
+    border-radius: 10px;
+}
+
+.team-5 .team-content h2 {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.team-5 .team-content h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.team-5 .team-content h4 {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.team-5 .team-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.team-5 .team-social {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 35px;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, .6);
+    transition: all .3s;
+    font-size: 0;
+    z-index: 1;
+    opacity: 0;
+}
+
+.team-5:hover .team-social {
+    opacity: 1;
+}
+
+.team-5 .team-social a {
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    margin-right: 5px;
+    padding: 11px 0 10px 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: all .3s;
+    margin-top: 50px;
+}
+
+.team-5 .team-social a.social-tw {
+    background: #00acee;
+}
+
+.team-5 .team-social a.social-fb {
+    background: #3b5998;
+}
+
+.team-5 .team-social a.social-li {
+    background: #0e76a8;
+}
+
+.team-5 .team-social a.social-in {
+    background: #3f729b;
+}
+
+.team-5 .team-social a.social-yt {
+    background: #c4302b;
+}
+
+.team-5 .team-social a:last-child {
+    margin-right: 0;
+}
+
+.team-5:hover .team-social a {
+    margin-top: 0;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.column {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 576px) {
+    .column {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .column {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media (min-width: 992px) {
+    .column {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+.section-title {
+    width: 100%;
+    text-align: center;
+    padding: 45px 0 30px 0;
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 5px;
+    left: calc(50% - 25px);
+    background: #353535;
+}
+
+.section-title h1 {
+    color: #353535;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+
+@media(max-width: 767.98px) {
+    .section-title h1 {
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+}
+
+@media(max-width: 567.98px) {
+    .section-title h1 {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+}
+
+.team-5 .team-social a:hover {
+    background: #222222;
+}
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+.navbar{
+   width: 100%;
+   height: 60px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0% 5vw;
+   background: black;
+   z-index: 9;
+}
+
+.logo{
+   width: 4%
+}
+
+.blog-section{
+    width: 100%;
+    padding: 50px 5vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+}
+
+.blog-image{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-overview{
+    margin: 10px 0 20px;
+    line-height: 30px;
+}
+
+.btn.dark{
+    background: #000;
+    color: #fff;
+}
+
+.linea1{
+    width:100%;
+    Height:3px;
+    margin-top: 50px;
+    background-color:black;
+}
+
+.footer-bar{
+    width: 100%;
+    height: 60px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.copyright{
+    color: white;
+    background-color: black;
+    text-align: right;
+}
+
+/*Ventana Modal*/
+
+.form-register{
+    width: 400px;
+    background: #0c94e8;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100%;
+    background: #1f53cc;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.btn_volver{
+    width: 100%;
+    background: #1f53cc;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 6px 0;
+    font-size: 16px;
+}
+
+.pop-up{
+    background: rgba(48,48,48,0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    transform: scale(0.6);
+    opacity: 0;
+    transition: all 0.3s ease all;
+}
+
+.botons:hover{
+    background: #296ef7;
+    transition: .25s ease;
+}
+
+.pop-up.show{
+    visibility: visible;
+    transform: scale(1);
+    opacity: 1;
+}
+
+.registro{
+    color: white;
+    background: black;
+    font-size: 15px;
+}
+
+.xderecha{
+    width: auto;
+    display:flex;
+    justify-content:right;
+}
+
+.curriculum{
+    width: 40%;
+    height: 60%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.titulocurriculum{
+    color: black;
+}
+
