@@ -20,7 +20,13 @@ $clave=md5($contrasena);
  //echo 'clave'.$clave;
 ?>
 
-Gracias por suscribirte !!<br>
+<?php
+
+// wait 5 seconds and redirect :)
+echo "<meta http-equiv=\"refresh\" content=\"0.5;url=index.html\"/>";
+
+?>
+
 
 
 <?php
@@ -44,6 +50,8 @@ if ($conn->query($sql) === TRUE) {
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }
+
+
 
 // Cerrar conexión
 $conn->close();

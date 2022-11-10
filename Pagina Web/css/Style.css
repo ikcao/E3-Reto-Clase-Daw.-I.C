@@ -477,7 +477,7 @@ body{
 
 .form-register{
     width: 400px;
-    background: #0c94e8;
+    background: rgba(48,47,47,0.2);
     padding: 30px;
     margin: auto;
     margin-top: 100px;

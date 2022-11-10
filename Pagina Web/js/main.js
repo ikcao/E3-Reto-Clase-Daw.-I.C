@@ -10,7 +10,7 @@ $(document).ready(function() {
 
     $(".registro").click(showPopup);
 
-    setTimeout(showPopup, 5000);
+    
 
 
 
